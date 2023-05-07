@@ -1,0 +1,83 @@
+
+
+.home{
+  text-align: center;
+  display: block;
+  justify-content: center;
+  background-color: #021519;
+  color: rgb(149, 246, 124);
+  text-transform:uppercase; 
+
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #021519;
+    margin-left: 5%;
+    margin-right: 5%;  
+  }
+
+  .gallery figure {
+    border: solid;
+    border-radius: 20px;
+    background-image: url(https://pm1.narvii.com/6651/9079f3a723bce8ab99e53538f77b4e04ab48c8ed_hq.jpg);
+    background-size: cover;
+   
+
+    width: 20%;
+     margin-bottom: 2rem;
+    text-align: center;
+    padding: 5px;
+    name{
+      background-image: url(https://pm1.narvii.com/6651/9079f3a723bce8ab99e53538f77b4e04ab48c8ed_hq.jpg);
+    }
+  }
+
+  .gallery img {
+    // max-width: 80%;
+    border-radius: 140px;
+    border: dashed;
+    border-color: rgb(149, 246, 124) ;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    width: 60%;
+  }
+
+    // display: flex;
+    // justify-content: center ;
+    // justify-content: space-around;
+    // margin-left: 20px;
+    
+
+    // padding: 20px;
+   
+    // boton{
+    //     display: flex;
+    
+    // justify-content: center ;
+    // justify-content: space-around;
+    // margin-left: 20px;
+       
+    // }
+.botones{    
+    .botones {
+      position: relative;
+      bottom: 10px;
+      padding: 2px;
+      justify-content: space-between;
+      
+    }
+    
+    .boton {
+      font-size: 24px;
+      padding: 10px 20px;  
+    }
+
+
+}
+.name{
+  color: rgb(199, 249, 50) ;
+
+}
