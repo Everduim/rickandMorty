@@ -1,9 +1,12 @@
 .carta{
+    padding-top: 10%;
     display: flex;
     justify-content: center;
     padding-top: 30px;
     padding-bottom: 100px;
     background-color: #021519;
+    height: 100vh;
+    
     text-align: center;
     color: chartreuse;
     font-family:Verdana, Geneva, Tahoma, sans-serif
@@ -12,23 +15,27 @@
 
 
 .carta-dentro {
-    text-decoration: azure;
+    text-decoration: rgba(240, 255, 255, 0);
+    background-color: rgba(240, 248, 255, 0);
     border-radius: 7px;
     border:solid;
     // width: 100%;
-    // height: 70%;
+     height: 50px;
     text-align: center;
+    padding-top: 10px;
     padding: 20px;
-    height: 50vh; 
+    height: 45vh; 
     background-image: url(https://i.pinimg.com/originals/b2/74/b2/b274b244362054130844cc018e8d20a3.gif);
-    background-size:cover;
-    color: rgb(22, 3, 12);
+    background-size: cover;
+    
 
   }
   .carta-imagen{
     padding-top: 30px;
     margin-top: 30px;
-    border-radius: 200px;
+    border-radius: 50px;
+    width: 70%;
+    
 }
   
   

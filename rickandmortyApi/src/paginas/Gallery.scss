@@ -65,7 +65,7 @@
     .botones {
       position: relative;
       bottom: 10px;
-      padding: 2px;
+      padding-bottom: 20px;
       justify-content: space-between;
       
     }
@@ -73,6 +73,7 @@
     .boton {
       font-size: 24px;
       padding: 10px 20px;  
+      margin-bottom:  40px;
     }
 
 
@@ -80,4 +81,15 @@
 .name{
   color: rgb(199, 249, 50) ;
 
+}
+.search{
+  padding-top: 0%;
+  padding-bottom: 40px;
+  .input{
+    border-radius: 10px;
+    width: 13%;
+    height: 20px;
+
+  }
+  
 }

@@ -4,7 +4,7 @@ import './Footer.scss'
 const Footer = () => {
   return (
     <>
-      <footer>
+      {/* <footer>
         <ul>
           <li>By Everduim</li>
           <li>By Everduim</li>
@@ -56,7 +56,7 @@ const Footer = () => {
           <li>By Everduim</li>
         </ul>
       </footer>
-      
+       */}
     </>
   )
 }
